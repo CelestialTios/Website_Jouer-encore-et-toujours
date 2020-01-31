@@ -1,0 +1,246 @@
+@font-face {
+  font-family: "Franklin Gothic Medium";
+  src: url("../fonts/Franklin-Gothic-Medium.otf");
+}
+
+@font-face {
+  font-family: "Franklin Gothic Book";
+  src: url("../fonts/Franklin-Gothic-Book.ttf");
+}
+
+body
+{
+  padding: 0;
+  margin: 0;
+  display: flex;
+  /*centre le formulaire*/
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: -20px 0 50px;
+  background-image: url("img/background.png");
+  letter-spacing: 1px;
+}
+
+.container
+{
+  border-radius: 20px;
+  background-color: #FFFFFF;
+  width: 500px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+h1
+{
+  font-family: "Franklin Gothic Medium", sans-serif;
+  text-transform: uppercase;
+  font-size: 25px;
+  margin: 45px 0px;
+  color: #2E2B2B; /*noir*/
+}
+
+/*navigation menu*/
+
+nav
+{
+  width: 100%;
+}
+
+ul
+{
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+#sign-in
+{
+  width: 50%;
+  color: #FFFFFF; /*blanc*/
+  background-color: #00818E; /*turquoise*/
+  border-top-left-radius: 16.5px;
+}
+
+#sign-up:hover
+{
+  color: #FFFFFF; /*white*/
+  background-color: #00818E; /*turquoise*/
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+#sign-up
+{
+  width: 50%;
+  background-color: #EBEBEB; /*gris clair*/
+  color: #2E2B2B; /*noir*/
+  border-top-right-radius: 16.5px;
+}
+
+.sign
+{
+  font-family: "Franklin Gothic Medium", sans-serif;
+  list-style-type: none;
+  text-align: center;
+  display: inline;
+  font-size: 20px;
+  padding: 10px 20px;
+}
+
+/*end navigation menu*/
+
+.middle
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/*user information*/
+
+input[type="email"], input[type="password"]
+{
+  font-family: "Franklin Gothic Book", sans-serif;
+  background-color: #EBEBEB; /*gris clair*/
+  color: #2E2B2B; /*noir*/
+  border-style: none;
+  font-size: 20px;
+  padding-left: 10px;
+  height: 50px;
+  width: 240px;
+}
+
+input[type="email"]::placeholder, input[type="password"]::placeholder
+{
+  color: #959595; /*gris foncé*/
+  letter-spacing: normal;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.field
+{
+  display: flex;
+}
+
+#mail-field
+{
+  margin-bottom: 30px;
+}
+
+.icon
+{
+  width: 60px;
+  height: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00818E; /*turquoise*/
+}
+
+.icon img
+{
+  height: 40px;
+}
+
+/*end user information*/
+
+#remember-me
+{
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+#remember-me p
+{
+  font-family: "Franklin Gothic Medium", sans-serif;
+  font-size: 15px;
+  color: #2E2B2B; /*noir*/
+  margin: 0px 7px;
+}
+
+input[type="checkbox"]
+{
+  width: 20px;
+  height: 20px;
+  margin: 0;
+}
+
+button
+{
+  font-family: "Franklin Gothic Medium", sans-serif;
+  letter-spacing: 1.5px;
+  color: #FFFFFF; /*white*/
+  background-color: #00A3B3; /*bleu*/
+  font-size: 20px;
+  border-radius: 10px;
+  width: 230px;
+  height: 45px;
+  border-style: none;
+  margin-top: 60px;
+}
+
+button:hover
+{
+  background-color: #00818E; /*turquoise*/
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+textarea:focus, button:focus{
+  outline: none;
+}
+
+#forgot-pswd
+{
+  margin-top: 15px;
+  color: #2E2B2B; /*noir*/
+  font-family: "Franklin Gothic Medium", sans-serif;
+}
+
+/*previous page*/
+
+#previous-page
+{
+  position: absolute;
+  bottom: 0px;
+  margin-left: 10px;
+  left: 0;
+}
+
+#previous-page a
+{
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+#previous-page img
+{
+  height: 15px;
+  width: 17px;
+}
+
+#previous-page p
+{
+  font-family: "Franklin Gothic Medium", sans-serif;
+  color: #00818E; /*turquoise*/
+  font-size: 15px;
+  margin-left: 7px;
+}
+
+#previous-page:hover a
+{
+  text-decoration: underline;
+  text-decoration-color: #00818E; /*turquoise*/
+}
+
+/*end previous page*/

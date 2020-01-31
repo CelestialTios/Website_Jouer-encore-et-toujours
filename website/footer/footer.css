@@ -1,0 +1,180 @@
+@font-face {
+  font-family: "Franklin Gothic Medium";
+  src: url("../fonts/Franklin-Gothic-Medium.otf");
+}
+
+@font-face {
+  font-family: "Franklin Gothic Book";
+  src: url("../fonts/Franklin-Gothic-Book.ttf");
+}
+
+body
+{
+  margin: 0;
+  padding: 0;
+}
+
+h2
+{
+  font-family: "Franklin Gothic Medium", sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+#top
+{
+  font-family: "Franklin Gothic Book", sans-serif;
+  font-size: 17px;
+  color: #FFFFFF; /*white*/
+  background-color: #00A3B3; /*blue*/
+  display: flex;
+  justify-content: space-around;
+  height: 230px;
+}
+
+/*contact*/
+
+#contact
+{
+  width: 250px;
+  height: 100%;
+}
+
+#contact p
+{
+  margin-top: 32px;
+}
+
+#contact a
+{
+  font-family: "Franklin Gothic Medium", sans-serif;
+  font-size: 15px;
+  color: #FFFFFF; /*white*/
+}
+
+/*end contact*/
+
+/*social networks*/
+
+#social-networks
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#social-networks p
+{
+  font-family: "Franklin Gothic Medium", sans-serif;
+  font-size: 15px;
+}
+
+#social-networks h2
+{
+  margin-top: -8px;
+}
+
+#social-networks ul
+{
+  padding: 0;
+  width: 200px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*end social networks*/
+
+/*newsletter*/
+
+#newsletter
+{
+  width: 320px;
+}
+
+#newsletter p
+{
+  margin-top: 32px;
+}
+
+#mail
+{
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+#mail input
+{
+  font-family: "Franklin Gothic Book", sans-serif;
+  font-size: 20px;
+  border-style: none;
+  padding-left: 4px;
+  height: 36px;
+  width: 60%;
+}
+
+#mail input:focus
+{
+  outline: none;
+}
+
+#subscribe
+{
+  font-family: "Franklin Gothic Medium", sans-serif;
+  font-size: 15px;
+  color: #FFFFFF; /*white*/
+  background-color: #00818E; /*turquoise*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: none;
+  height: 38px;
+  width: 90px;
+}
+
+#subscribe:focus
+{
+  outline: none;
+}
+
+/*end newsletter*/
+
+#bottom
+{
+  color: #999999; /*gris*/
+  background-color: #2E2B2B;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+#bottom p
+{
+  margin-left: -100px;
+}
+
+#top-anchor
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 4%;
+}
+
+#top-anchor a
+{
+  color: #999999; /*gris*/
+  text-decoration: none;
+  margin-left: 8px;
+}
+
+#top-anchor img
+{
+  width: 15px;
+}

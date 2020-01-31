@@ -1,0 +1,266 @@
+/*general settings for articles*/
+
+.last-articles
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.last-articles h2
+{
+  font-family: "Franklin Gothic Medium", sans-serif;
+  font-weight: normal;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #2E2B2B; /*noir*/
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.toys-articles-middle
+{
+  width: 97%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.toy-article
+{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 100%;
+  border-style: solid;
+  border-color: #BFBFBF;
+  border-width: 1px;
+  max-width: 450px;
+  min-width: 250px;
+}
+
+#middle-article
+{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/*end general settings for articles*/
+
+/*directionnal arrows*/
+
+.directionnal-arrows
+{
+  width: 5.5%;
+  max-width: 80px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.directionnal-arrows:hover
+{
+  opacity: 0.85;
+  transition-property: opacity;
+  transition-duration: 0.5s;
+}
+
+/*end derectionnal arrows*/
+
+/*article settings*/
+
+.toy-article-header
+{
+  color: #FFFFFF; /*white*/
+  background-color: #2E2B2B; /*noir*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.toy-article-header h3
+{
+  font-family: "Franklin Gothic Medium", sans-serif;
+  font-weight: normal;
+}
+
+.img-toy-article
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #BFBFBF; /*gris*/
+  border-left: none;
+  border-right: none;
+  height: 250px;
+}
+
+.img-toy-article img
+{
+  width: 60%;
+}
+
+/*general categories*/
+
+.toy-category
+{
+  color: #FFFFFF; /*white*/
+  border-color: #BFBFBF; /*gris*/
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 1px;
+  height: 25px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.toy-categories-box
+{
+  margin-left: 10px;
+}
+
+/*end general categories*/
+
+.toy-article-body
+{
+  height: 150px;
+  overflow: auto;
+}
+
+/*categories types*/
+
+.construction
+{
+  background-color: #FF9C27; /*jaune*/
+}
+
+.role
+{
+  background-color: #009415; /*vert*/
+}
+
+.strategy
+{
+  background-color: #16A0FF; /*bleu*/
+}
+
+/*end categories types*/
+
+/*characteristics*/
+
+.toy-characteristics
+{
+  font-family: "Franklin Gothic Book", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.toy-info, .play-time, .player-count
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.infinite-icon
+{
+  width: 25px;
+  margin-left: 5px;
+}
+
+.player-count-icon
+{
+  width: 30%;
+}
+
+.time-icon
+{
+  width: 50%;
+}
+
+.play-time
+{
+  margin-right: 10px;
+}
+
+.toy-info
+{
+  margin-top: 4px;
+  margin-right: 10px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+}
+
+.toy-info p
+{
+  font-family: "Franklin Gothic Book", sans-serif;
+  font-size: 15px;
+  color: #808080; /*gris foncé*/
+  margin-left: 5px;
+  width: 100%;
+}
+
+.desc
+{
+  font-family: "Franklin Gothic Book", sans-serif;
+  font-size: 20px;
+  color: #595959; /*gris foncé*/
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: justify;
+}
+
+/*end characteristics*/
+
+/*article footer*/
+
+.toy-article-footer
+{
+  background-color: #F2F2F2; /*gris clair*/
+  height: 65px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top-style: solid;
+  border-top-color: #BFBFBF; /*gris*/
+  border-top-width: 1px;
+}
+
+.toy-article-footer a
+{
+  font-family: "Franklin Gothic Medium", sans-serif;
+  font-size: 100%;
+  color: #FFFFFF; /*white*/
+  background-color: #00818E; /*turquoise*/
+  border-style: none;
+  border-radius: 10px;
+  margin-right: 10px;
+  width: 40%;
+  height: 60%;
+}
+
+.toy-article-author
+{
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.toy-article-author img
+{
+  width: 50%;
+}
+
+.toy-article-author p
+{
+  font-family: "Franklin Gothic Medium", sans-serif;
+  color: #2E2B2B; /*noir*/
+  margin-left: 7px;
+}
+
+/*end article footer*/

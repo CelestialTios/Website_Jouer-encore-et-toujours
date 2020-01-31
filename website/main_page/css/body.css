@@ -1,0 +1,555 @@
+@font-face {
+  font-family: "Franklin Gothic Medium";
+  src: url("../../fonts/Franklin-Gothic-Medium.otf");
+}
+
+@font-face {
+  font-family: "Franklin Gothic Book";
+  src: url("../../fonts/Franklin-Gothic-Book.ttf");
+}
+
+/*general settings*/
+
+body
+{
+  padding: 0;
+  margin: 0;
+}
+
+.underlined
+{
+  display: inline;
+  border-bottom: solid;
+  border-color: #00818E; /*turquoise*/
+}
+
+.click-button
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.click-button:hover
+{
+  background-color: #00A3B3; /*blue*/
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+.click-button:focus
+{
+  outline: none;
+}
+
+/*end general settings*/
+
+#welcome
+{
+  height: 650px;
+  position: relative;
+  background-image: url("../img/welcome_img.jpg");
+  background-size: cover;
+}
+
+#welcome img
+{
+  width: 100%;
+  height: 100%;
+}
+
+#welcome h1
+{
+  position: absolute;
+  font-family: "Franklin Gothic Medium", sans-serif;
+  font-weight: normal;
+  font-size: 40px;
+  text-shadow: 5px 5px 15px #000000;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1px;
+  color: white;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*schedule*/
+
+#schedule
+{
+  background-color: #00818E; /*turquoise*/
+  width: 300px;
+  height: 250px;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#schedule h2
+{
+  font-family: "Franklin Gothic Medium", sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  letter-spacing: 0.8px;
+  color: #FFFFFF;
+  margin-bottom: 0;
+}
+
+#schedule ol
+{
+  padding: 0;
+  width: 90%;
+}
+
+#schedule li
+{
+  display: flex;
+  justify-content: space-between;
+}
+
+#schedule li:first-child
+{
+  border-top: solid;
+  border-color: white;
+  padding-top: 15px;
+}
+
+#schedule li:last-child
+{
+  border-bottom: solid;
+  border-color: white;
+  padding-bottom: 15px;
+}
+
+#schedule li:nth-child(2)
+{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#schedule li
+{
+  list-style-type: none;
+}
+
+#schedule li p
+{
+  font-family: "Franklin Gothic Book", sans-serif;
+  font-size: 20px;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+/*end schedule*/
+
+/*our association*/
+
+#our-association
+{
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+#association-desc
+{
+  height: 380px;
+  margin-right: 150px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+#association-desc a
+{
+  font-family: "Franklin Gothic Medium", sans-serif;
+  font-size: 20px;
+  letter-spacing: 0.8px;
+  color: #FFFFFF;
+  background-color: #00818E; /*turquoise*/
+  height: 37px;
+  width: 200px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+#association-desc a:hover
+{
+  background-color: #00A3B3; /*blue*/
+}
+
+#our-association h2
+{
+  font-family: "Franklin Gothic Medium", sans-serif;
+  font-size: 28px;
+  font-weight: normal;
+  color: #2E2B2B; /*noir*/
+}
+
+#our-association img
+{
+  width: 600px;
+  height: 380px;
+}
+
+#our-association p
+{
+  font-family: "Franklin Gothic Book", sans-serif;
+  font-size: 20px;
+  margin-top: 30px;
+  text-align: justify;
+  width: 500px;
+}
+
+/*end our association*/
+
+/*our numbers*/
+
+.info
+{
+  position: relative;
+}
+
+#our-numbers
+{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../img/our_numbers_img.jpg");
+  background-size: cover;
+  height: 450px;
+  margin-top: 30px;
+}
+
+#our-numbers h2
+{
+  font-family: "Franklin Gothic Medium", sans-serif;
+  font-weight: normal;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #FFFFFF; /*white*/
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.info img
+{
+  width: 270px;
+}
+
+.info p
+{
+  font-family: "Franklin Gothic Book", sans-serif;
+  font-size: 22px;
+  text-align: center;
+  color: #FFFFFF; /*white*/
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+}
+
+.info p strong
+{
+  font-family: "Franklin Gothic Medium", sans-serif;
+  font-size: 43px;
+  font-weight: normal;
+  color: #FFFFFF; /*white*/
+  display: block;
+}
+
+.middle
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  margin-top: 30px;
+}
+
+/*end our numbers*/
+
+/*now*/
+
+#now h2
+{
+  font-family: "Franklin Gothic Medium", sans-serif;
+  font-size: 28px;
+  font-weight: normal;
+  text-transform: uppercase;
+  background-color: #00A3B3; /*bleu*/
+  color: #FFFFFF; /*white*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  margin: 0;
+}
+
+#articles-box
+{
+  background-color: #E5E5E5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#articles
+{
+  width: 90%;
+  min-width: 1250px;
+  max-width: 1600px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#articles p
+{
+  font-family: "Franklin Gothic Book", sans-serif;
+  color: #FFFFFF; /*white*/
+}
+
+.article
+{
+  position: relative;
+}
+
+.go-to
+{
+  font-family: "Franklin Gothic Medium", sans-serif;
+  background-color: #00818E; /*turquoise*/
+  color: #FFFFFF; /*white*/
+  border-style: none;
+}
+
+.important .article-body
+{
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  bottom: 1.1%;
+  width: 100%;
+}
+
+.important .go-to
+{
+  font-size: 100%;
+  width: 25%;
+  border-style: none;
+  border-radius: 10px;
+}
+
+#most-important
+{
+  width: 100%;
+  max-width: 700px;
+}
+
+#most-important .go-to
+{
+  position: absolute;
+  left: 50%;
+  height: 17%;
+  transform: translateX(-50%);
+}
+
+.article-body
+{
+  height: 50%;
+}
+
+#most-important img
+{
+  width: 100%;
+  max-width: 700px;
+}
+
+#most-important p
+{
+  margin-top: 40px;
+}
+
+#second-important img
+{
+  width: 100%;
+  height: 248px;
+}
+
+#second-important .go-to
+{
+  position: absolute;
+  height: 25%;
+  right: 1%;
+  bottom: 5%;
+}
+
+.article-head
+{
+  display: flex;
+  justify-content: center;
+  height: 40px;
+}
+
+.actu-type
+{
+  font-family: "Franklin Gothic Medium", sans-serif;
+  font-size: 100%;
+  background-color: #FF4019; /*orange*/
+  color: #FFFFFF; /*white*/
+  border-style: none;
+}
+
+#most-important .actu-type
+{
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 20%;
+  height: 14%;
+}
+
+#second-important .actu-type
+{
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 20%;
+  height: 25%;
+}
+
+.important h3
+{
+  font-family: "Franklin Gothic Medium", sans-serif;
+  font-size: 125%;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin-top: 8px;
+  color: #FFFFFF; /*white*/
+}
+
+.important p
+{
+  text-align: justify;
+  font-size: 18px;
+  width: 500px;
+  margin-left: 8px;
+}
+
+#right-side
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width:48%;
+}
+
+#left-side
+{
+  width: 48%;
+}
+
+#subside
+{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#subside .article-body
+{
+  height: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.less-important
+{
+  width: 49%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.less-important .actu-type
+{
+  margin-top: 2px;
+  margin-left: 2px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.less-important .article
+{
+  position: relative;
+}
+
+.less-important a
+{
+  font-size: 14px;
+}
+
+.less-important img
+{
+  width: 100%;
+}
+
+.less-important .article-body
+{
+  position: relative;
+}
+
+.less-important h3
+{
+  font-family: "Franklin Gothic Medium", sans-serif;
+  font-weight: normal;
+  font-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  color: #FFFFFF; /*white*/
+  width: 100%;
+  margin-left: 9px;
+}
+
+.less-important p
+{
+  font-family: "Franklin Gothic Book", sans-serif;
+  width: 80%;
+  margin-top: -2px;
+  margin-left: 2px;
+}
+
+.less-important .go-to
+{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 35%;
+  height: 25%;
+  margin-right: 4px;
+  margin-bottom: 3px;
+  border-radius: 5px;
+}
+
+/*end now*/
