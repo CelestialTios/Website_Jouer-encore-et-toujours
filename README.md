@@ -13,7 +13,8 @@ It is a fictious association of board games who played the role of customer in t
 Download the `website` folder. Then, go into the `main_page` folder and open the file `welcome.html` with a navigator. Now, you can navigate throught the website !
 
 Pages made:
-*Accueil
-*Contact
-*Login
-*Qui sommes-nous ?
+* Accueil
+* Qui sommes-nous ?
+* Notre équipe
+* Login
+* Contact
