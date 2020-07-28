@@ -1,8 +1,8 @@
 # About this project
 
-This project is a website made in HTML and CSS during my first academic year. This project has for goad to make us discover the universe of web programming and the management of a project with customer constraints. It was made in 3 months, in addition to our courses.
+This project is a website made in HTML and CSS during my first academic year. This project has for goal to make us discover the universe of web programming and the management of a project with customer constraints. It was made in 3 months, in addition to our courses.
 
-To achieve this project, we only had to complete 5 pages of the site. We also had to create a report to justify our choices such as graphics, ergonomics, features or accessibility for example. In this document were also mentionned the other pages of the site we imagined in addition of the one created.
+To achieve this project, we only had to complete 5 pages of the site. We also had to create a report to justify our choices such as graphics, ergonomics, features or accessibility for example. In this document were also mentionned the other pages of the site that we imagined in addition of the one created.
 
 ## About the association "Jouer, encore et toujours"
 
