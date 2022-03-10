@@ -18,3 +18,10 @@ Download the `website` folder. Then, go into the `main_page` folder and open the
 * Notre équipe
 * Login
 * Contact
+
+## Collaborator
+
+This project was made by 3 people.
+* Clément GHO
+* Géraud BERTRAND
+* Edouard LE
